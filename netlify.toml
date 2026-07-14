@@ -1,0 +1,14 @@
+[build]
+  publish = "dist"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://suitingclubbackend-production.up.railway.app/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/uploads/*"
+  to = "https://suitingclubbackend-production.up.railway.app/uploads/:splat"
+  status = 200
+  force = true
